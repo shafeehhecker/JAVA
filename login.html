@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="style.css" />
+        <script>
+            function ButtonClick_Test()
+            {
+                 document.getElementById("firstbox").value='1' ;
+            }
+            function Clr_all()
+            {
+                document.getElementById("firstbox").value= '';
+                document.getElementById("secondbox").value= '';
+                document.getElementById("thirdbox").value= '';
+                document.getElementById("forthbox").value= '';
+            }
+            </script>
+    </head>
+    <body background="C:\Users\shafe\Desktop\project\wall4.jpg">
+        <div class="main_div">
+            <div class="login_div">
+                <h2>Login</h2>
+                <h3>User :
+                    <label for="cars"></label>
+
+                    <select name="cars" id="cars">
+                      <option value="ADMIN">ADMIN</option>
+                      <option value="saab">USER 1</option>
+                      <option value="mercedes">USER 2</option>
+                      <option value="audi">USER 3</option>
+                    </select>&emsp;&emsp;&emsp;&emsp;&emsp;<button onclick="ButtonClick_Test()" value="1" id="1">1</button>
+                    <button onclick="ButtonClick_Test()">2</button>
+                    <button onclick="ButtonClick_Test()">3</button>
+                    <h3>Pin :
+                    <input type="password" maxlength="1" tabindex="1" readonly class="display-otp-box"  data-key="otp1" id="firstbox">
+                    <input type="password" maxlength="1" tabindex="2" readonly class="display-otp-box" data-key="otp2" id="secondbox">
+                    <input type="password" maxlength="1" tabindex="3" readonly class="display-otp-box" data-key="otp3" id="thirdbox" >
+                    <input type="password" maxlength="1" tabindex="4" readonly class="display-otp-box" data-key="otp4" id="forthbox">
+                    &emsp;<button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                </h3>
+                <div class="move">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<button>7</button>
+                    <button>8</button>
+                    <button>9</button></div>
+                    <br />
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<button class="clr" onclick="Clr_all()">clear</button>
+                    &nbsp;<button>0</button>
+                    <br /><br />
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<button class="go">Login</button>
+               
+               
+            </div>
+            <div class="drag">
+                <h2>
+                    <img src="C:\Users\shafe\Desktop\project\spoon.png" height="40px">&nbsp;SAC RestoPack &emsp;&emsp;<img src="C:\Users\shafe\Desktop\project\logo.png">
+               </h2>
+             </div>
+
+            </div>
+            
+        </div>
+           
+            
+        
+
+    </body>
+</html>
